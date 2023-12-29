@@ -1,0 +1,5 @@
+﻿<metadata>
+
+  <!-- remove the internal, internal classes -->
+  <remove-node path="/api/package[starts-with(@name,'kotlinx.serialization.protobuf')]" />
+</metadata>

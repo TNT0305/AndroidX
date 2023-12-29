@@ -4,11 +4,11 @@
 #tool nuget:?package=Microsoft.Android.Sdk.Windows&version=34.0.43
 
 // Cake Addins
-#addin nuget:?package=Cake.FileHelpers&version=6.1.3
 #addin nuget:?package=Newtonsoft.Json&version=13.0.3
 #addin nuget:?package=Cake.MonoApiTools&version=3.0.5
 #addin nuget:?package=CsvHelper&version=30.0.1
 #addin nuget:?package=SharpZipLib&version=1.4.2
+#addin nuget:?package=Cake.FileHelpers&version=6.1.3
 
 // #addin nuget:?package=NuGet.Protocol&loaddependencies=true&version=5.6.0
 // #addin nuget:?package=NuGet.Versioning&loaddependencies=true&version=5.6.0
@@ -132,6 +132,7 @@ void RunGradle(DirectoryPath root, string target)
 
 string GetNuGetVersion(string nugetId, string configJson = "./config.json")
 {
+    Console.WriteLine($"nugetId: {nugetId}, configJson: {configJson}");
     var json = JToken.Parse(FileReadText(configJson));
 
     if (json.Type == JTokenType.Array)
@@ -1031,3 +1032,5 @@ if (FileExists ("./generated/AndroidX.sln")) {
 }
 
 RunTarget (TARGET);
+
+

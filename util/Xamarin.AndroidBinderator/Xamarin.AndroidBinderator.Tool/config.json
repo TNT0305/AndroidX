@@ -1,0 +1,33 @@
+[
+  {
+    "mavenRepositoryType": "Google",
+    "slnFile": "generated/AndroidSupport.sln",
+    "downloadExternalsWithFullName": true,
+    "additionalProjects": [
+    ],
+    "templates": [
+      {
+        "templateFile": "source/AndroidSupportTargets.cshtml",
+        "outputFileRule": "generated/{groupid}.{artifactid}/{nugetid}.targets"
+      },
+      {
+        "templateFile": "source/AndroidSupportProject.cshtml",
+        "outputFileRule": "generated/{groupid}.{artifactid}/{groupid}.{artifactid}.csproj"
+      }
+    ],
+    "artifacts": [
+      {
+        "groupId": "com.android.support",
+        "artifactId": "support-annotations",
+        "version": "28.0.0-beta01",
+        "nugetId": "Xamarin.Android.Support.Annotations"
+      },
+      {
+        "groupId": "com.android.support",
+        "artifactId": "support-compat",
+        "version": "28.0.0-beta01",
+        "nugetId": "Xamarin.Android.Support.Compat"
+      }
+    ]
+  }
+]

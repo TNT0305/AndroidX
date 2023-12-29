@@ -1,0 +1,6 @@
+﻿<metadata>
+
+  <!-- remove the internal, internal classes -->
+  <remove-node path="/api/package[starts-with(@name,'kotlinx.serialization.internal')]" />
+  <remove-node path="/api/package[starts-with(@name,'kotlinx.serialization.encoding')]" />
+</metadata>

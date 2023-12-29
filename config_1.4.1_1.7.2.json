@@ -34,8 +34,8 @@
       {
         "groupId": "org.jetbrains.kotlin",
         "artifactId": "kotlin-stdlib",
-        "version": "1.9.21",
-        "nugetVersion": "1.9.21",
+        "version": "1.7.20",
+        "nugetVersion": "1.7.20",
         "nugetId": "Xamarin.Kotlin.StdLib",
         "dependencyOnly": true,
         "templateSet": "kotlin"
@@ -43,8 +43,8 @@
       {
         "groupId": "org.jetbrains.kotlin",
         "artifactId": "kotlin-stdlib-common",
-        "version": "1.9.21",
-        "nugetVersion": "1.9.21",
+        "version": "1.7.20",
+        "nugetVersion": "1.7.20",
         "nugetId": "Xamarin.Kotlin.StdLib.Common",
         "dependencyOnly": true,
         "templateSet": "kotlin",
@@ -55,8 +55,8 @@
       {
         "groupId": "org.jetbrains.kotlin",
         "artifactId": "kotlin-stdlib-jdk7",
-        "version": "1.9.21",
-        "nugetVersion": "1.9.21",
+        "version": "1.7.20",
+        "nugetVersion": "1.7.20",
         "nugetId": "Xamarin.Kotlin.StdLib.Jdk7",
         "dependencyOnly": true,
         "templateSet": "kotlin",
@@ -67,8 +67,8 @@
       {
         "groupId": "org.jetbrains.kotlin",
         "artifactId": "kotlin-stdlib-jdk8",
-        "version": "1.9.21",
-        "nugetVersion": "1.9.21",
+        "version": "1.7.20",
+        "nugetVersion": "1.7.20",
         "nugetId": "Xamarin.Kotlin.StdLib.Jdk8",
         "dependencyOnly": true,
         "templateSet": "kotlin",
@@ -79,8 +79,8 @@
       {
         "groupId": "org.jetbrains.kotlin",
         "artifactId": "kotlin-android-extensions-runtime",
-        "version": "1.9.21",
-        "nugetVersion": "1.9.21",
+        "version": "1.7.20",
+        "nugetVersion": "1.7.20",
         "nugetId": "PSDC.Xamarin.Kotlin.Android.Extensions.Runtime",
         "dependencyOnly": false,
         "templateSet": "kotlin",
@@ -91,8 +91,8 @@
       {
         "groupId": "org.jetbrains.kotlin",
         "artifactId": "kotlin-parcelize-runtime",
-        "version": "1.9.21",
-        "nugetVersion": "1.9.21",
+        "version": "1.7.20",
+        "nugetVersion": "1.7.20",
         "nugetId": "PSDC.Xamarin.Kotlin.Parcelize.Runtime",
         "dependencyOnly": false,
         "templateSet": "kotlin",
@@ -103,8 +103,8 @@
       {
         "groupId": "org.jetbrains.kotlinx",
         "artifactId": "kotlinx-serialization-core-jvm",
-        "version": "1.6.2",
-        "nugetVersion": "1.6.2",
+        "version": "1.4.1",
+        "nugetVersion": "1.4.1",
         "nugetId": "PSDC.Xamarin.KotlinX.Serialization.Core.Jvm",
         "dependencyOnly": false,
         "templateSet": "kotlinx"
@@ -112,8 +112,8 @@
       {
         "groupId": "org.jetbrains.kotlinx",
         "artifactId": "kotlinx-serialization-protobuf-jvm",
-        "version": "1.6.2",
-        "nugetVersion": "1.6.2",
+        "version": "1.4.1",
+        "nugetVersion": "1.4.1",
         "nugetId": "PSDC.Xamarin.KotlinX.Serialization.Protobuf.Jvm",
         "dependencyOnly": false,
         "templateSet": "kotlinx"
@@ -121,8 +121,8 @@
       {
         "groupId": "org.jetbrains.kotlinx",
         "artifactId": "kotlinx-serialization-protobuf",
-        "version": "1.6.2",
-        "nugetVersion": "1.6.2",
+        "version": "1.4.1",
+        "nugetVersion": "1.4.1",
         "nugetId": "PSDC.Xamarin.KotlinX.Serialization.Protobuf",
         "dependencyOnly": false,
         "templateSet": "kotlinx"
